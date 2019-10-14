@@ -107,8 +107,6 @@
 				98B2732023545E260099C205 /* ViewController.swift */,
 				98B2732E23545E660099C205 /* AAPLRenderer.swift */,
 				98B2732223545E270099C205 /* Assets.xcassets */,
-				98B2732723545E270099C205 /* Mac-Info.plist */,
-				98B2735A23546B290099C205 /* IOS-Info.plist */,
 				98B2732823545E270099C205 /* MetalExperimentMac.entitlements */,
 				98B2733023545F2D0099C205 /* MPSRenderer */,
 				98B2735B23546E890099C205 /* IOS */,
@@ -147,6 +145,7 @@
 		98B2735B23546E890099C205 /* IOS */ = {
 			isa = PBXGroup;
 			children = (
+				98B2735A23546B290099C205 /* IOS-Info.plist */,
 				98B2735C23546E970099C205 /* IOSMain.storyboard */,
 			);
 			path = IOS;
@@ -155,6 +154,7 @@
 		98B2735F23546F080099C205 /* MAC */ = {
 			isa = PBXGroup;
 			children = (
+				98B2732723545E270099C205 /* Mac-Info.plist */,
 				98B2732423545E270099C205 /* MacMain.storyboard */,
 			);
 			path = MAC;
